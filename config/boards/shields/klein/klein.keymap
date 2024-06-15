@@ -51,7 +51,7 @@
 &trans         &trans         &trans         &trans         &trans              &kp CAPSLOCK   &bt BT_CLR     &kp K_CUT      &kp K_COPY     &kp K_PASTE
 &kp LGUI       &kp LALT       &kp LCTRL      &kp LSHFT      &trans              &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &trans
 &trans         &trans         &trans         &trans         &trans              &kp INSERT     &kp HOME       &kp PG_UP      &kp PG_DN      &kp END
-&trans         &trans         &trans         &bootloader                                       &bt BT_NXT     &kp RET        &kp BKSP       &kp DEL
+&trans         &trans         &trans         &kp Q                                       &bt BT_NXT     &kp RET        &kp BKSP       &kp DEL
             >;
         // sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
@@ -62,7 +62,7 @@
 &kp LBKT       &kp N7         &kp N8         &kp N9         &kp RBKT            &trans         &trans         &trans         &trans         &trans
 &kp SEMI       &kp N4         &kp N5         &kp N6         &kp EQUAL           &trans         &kp LSHFT      &kp LCTRL      &kp LALT       &kp LGUI
 &kp GRAVE      &kp N1         &kp N2         &kp N3         &kp BSLH            &trans         &trans         &trans         &trans         &trans
-&kp PERIOD     &kp N0         &kp MINUS      &bootloader                                       &bootloader    &trans         &trans         &trans
+&kp PERIOD     &kp N0         &kp MINUS      &kp Q                                       &kp Q    &trans         &trans         &trans
             >;
         // sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
@@ -73,7 +73,7 @@
 &kp F12        &kp F7         &kp F8         &kp F9         &kp PSCRN           &trans         &trans         &trans         &trans         &trans
 &kp F11        &kp F4         &kp F5         &kp F6         &kp SYSREQ          &trans         &kp LSHFT      &kp LCTRL      &kp LALT       &kp LGUI
 &kp F10        &kp F1         &kp F2         &kp F3         &kp PAUSE_BREAK     &trans         &trans         &trans         &trans         &trans
-&kp ESC        &kp SPACE      &kp TAB        &bootloader                                       &bootloader    &trans         &trans         &trans
+&kp ESC        &kp SPACE      &kp TAB        &kp Q                                       &kp Q    &trans         &trans         &trans
             >;
         // sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
@@ -84,7 +84,7 @@
 &kp LS(LBKT)   &kp LS(N7)     &kp LS(N8)     &kp LS(N9)     &kp LS(RBKT)        &trans         &trans         &trans         &trans         &trans
 &kp LS(SEMI)   &kp LS(N4)     &kp LS(N5)     &kp LS(N6)     &kp LS(EQUAL)       &trans         &kp LSHFT      &kp LCTRL      &kp LALT       &kp LGUI
 &kp LS(GRAVE)  &kp LS(N1)     &kp LS(N2)     &kp LS(N3)     &kp LS(BSLH)        &trans         &trans         &trans         &trans         &trans
-&kp LS(PERIOD) &kp LS(N0)     &kp LS(MINUS)  &bootloader                                       &bootloader    &trans         &trans         &trans
+&kp LS(PERIOD) &kp LS(N0)     &kp LS(MINUS)  &kp Q                                       &kp Q    &trans         &trans         &trans
             >;
         // sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
@@ -95,7 +95,7 @@
 &trans         &trans         &trans         &trans         &trans              &trans         &trans         &trans         &trans         &trans
 &kp LGUI       &kp LALT       &kp LCTRL      &kp LSHFT      &trans              &kp K_PREV     &kp K_VOL_DN   &kp K_VOL_UP   &kp K_NEXT     &trans
 &trans         &trans         &trans         &trans         &trans              &trans         &trans         &trans         &trans         &trans
-&trans         &trans         &trans         &bootloader                                       &bootloader    &kp K_STOP2    &kp K_PP       &kp K_MUTE
+&trans         &trans         &trans         &kp Q                                       &kp Q    &kp K_STOP2    &kp K_PP       &kp K_MUTE
             >;
         // sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
